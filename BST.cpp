@@ -22,7 +22,7 @@ BST::~BST() {
 }
 
 void BST::insert(char c, string str) {
-	BSTNode* temp = new BSTNode, *head = this->mpHead;//weird 
+	BSTNode* temp = new BSTNode, *head = this->mpHead;
 	bool success = false;
 	temp->setChar(c);
 	temp->setStr(str);
